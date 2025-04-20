@@ -1,0 +1,76 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+
+#login-container {
+    background-color: white;
+    width: 350px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px  rgb(163, 154, 154);
+}
+input{
+    width: 80%;
+    margin-bottom: 10px;
+    padding: 10px;
+    outline: none;
+}
+
+#loginButton  {
+    width: 90%;
+    padding: 10px;
+    background-color: rgb(42, 145, 42);
+    border: none;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+p{
+    color: red;
+}
+
+h2{
+    font-size: 30px;
+}
+
+
+#quiz{
+        background-color: white;
+        width: 350px;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 2px 2px 10px rgb(163, 154, 154);
+}
+#question{
+    color: rgb(67, 171, 68);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+#option-div button{
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: rgb(223, 91, 91);
+}
+
+#next-btn{
+    width: 90%;
+    padding: 10px;
+    background-color: rgb(42, 145, 42);
+    border: none;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.selected{
+    color: white;
+}
