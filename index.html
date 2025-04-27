@@ -1,0 +1,30 @@
+<!DOCTYPE htmlassword>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="quizz.css">
+</head>
+<body>
+    <div id="login-container">
+        <h2>Login</h2>
+        <input type="text", placeholder="enter username"  id="username">
+        <input type="password", placeholder="enter password" id="password">
+        <button id="loginButton">Login</button>
+        <p  id="failure" style=" display: none;"> invalid username or password </p>
+    </div>
+ <div id="quiz" style="display: none;">
+        <h2> Quiz  Game</h2>
+        <p id="question"> What is the name of your Tutor </p>
+        <div id="option-div" >
+           
+        </div>
+        <button id="next-btn">Next</button>
+    </div>
+
+    
+</body>
+
+<script  src="quiz.js"></script>
+</html>
